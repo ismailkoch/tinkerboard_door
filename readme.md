@@ -192,6 +192,7 @@ uzaklik = (sure/2) / 29.1; /* uzaklık değişkeni elde ediliyor */
 ![alt text][execute]
 
 [execute]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/execute.png
+SSH ile TinkerBoard geliştirme kartına bağlandıktan sonra python programı `sudo python project_sensor.py` komutu ile çalıştırılır. Program durdurulmak istendiğinde **Ctrl+C** yapılır ve `Keyboard Interrupt` meydana gelir. 
 
 #### Projeye Ait Görseller
 
