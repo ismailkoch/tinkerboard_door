@@ -46,6 +46,11 @@ Asus tinkerboard üzerinden python kodu yazıldı,arduino üzerinden de arduino 
 
 #### Nasıl Kullanılır
 
+![alt text][execute]
+
+[execute]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/execute.png
+
+#### Projeye Ait Görseller
 
 ![alt text][1]
 
@@ -59,9 +64,7 @@ Asus tinkerboard üzerinden python kodu yazıldı,arduino üzerinden de arduino 
 
 [3]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/3.jpg
 
-![alt text][execute]
 
-[execute]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/execute.png
 
 
 
