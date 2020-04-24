@@ -12,7 +12,7 @@ Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum al
 - 2 adet 30x30 cm strafor köpük
 - 2 adet 3x3 cm yaprak menteşe
 - 1 adet strafor köpük yapıştırıcı
-- 15 adet kumper kablo
+- 15 adet jumper kablo
 - 1 adet Breadboard
 - 3 adet led
 - 3 adet 220 ohm direnç 
