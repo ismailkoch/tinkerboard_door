@@ -3,7 +3,7 @@
 Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum algılanması ile algılayıcılardan edinilen veri ile birlikte araç kapasının engele çarpma durumunun engellenmesi için kapının durması gerektiği zamanın ve mesafenin kararı geliştirme kartı tarafından verilecektir.
 
 #### Gerekli Donanım Bileşenleri
-------------
+
 - 1 adet Asus TinkerBoard geliştirme kartı
 - 1 adet Arduino Uno R3 geliştirme kartı 
 - 2 adet Sharp GP2Y0A41SK0F kızılötesi analog mesafe algılayıcı
@@ -18,7 +18,7 @@ Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum al
 - 3 adet 220 ohm direnç 
 
 #### Gerekli Yazılım Bileşenleri
-------------
+
 - Python 3
 - Arduino IDE
 - Terminal
