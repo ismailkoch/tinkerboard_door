@@ -3,13 +3,17 @@
 Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum algılanması ile algılayıcılardan edinilen veri ile birlikte araç kapasının engele çarpma durumunun engellenmesi için kapının durması gerektiği zamanın ve mesafenin kararı geliştirme kartı tarafından verilecektir.
 #### Gerekli Donanım Bileşenleri
 ------------
-- 1 Adet Asus TinkerBoard Geliştirme Kartı
+- 1 adet Asus TinkerBoard geliştirme kartı
 - 2 adet Sharp GP2Y0A41SK0F kızılötesi analog mesafe algılayıcı
 - 2 adet MZ80 kızılötesi dijital mesafe algılayıcı
 - 2 adet HCSR-04 ses ötesi algılayıcı
 - 2 adet 30x30 cm strafor köpük
 - 2 adet  3x3 cm yaprak menteşe
 - 1 adet strafor köpük yapıştırıcı
+- 15 adet kumper kablo
+- 1 adet Breadboard
+- 3 adet led
+- 3 adet 220 ohm direnç 
 
 #### Gerekli Yazılım Bileşenleri
 ------------
@@ -18,7 +22,6 @@ Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum al
 
 #### Şematik Çizim
 ------------
-
 ![alt text][Fritzing]
 
 [Fritzing]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/Fritzing.png
@@ -37,12 +40,17 @@ Asus tinkerboard üzerinden python kodu yazıldı,arduino üzerinden de arduino 
 ![alt text][ssh]
 
 [ssh]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/ssh.png
+'ssh name@IP' komutu terminal üzerinden yazılarak TinkerBoard kartına bağlantı sağlanır. 'name' kullanıcı adı ve 'IP' IP adresidir.
 
 #### TinkerBoard GPIO Pinleri
 
 ![alt text][tinkerboardgpio]
 
 [tinkerboardgpio]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/tinkerboard%20gpio.png
+
+#### Arduino ile TinkerBoard Geliştirme Kartının Bağlantısı
+
+Arduino ile TinkerBoard geliştirme kartı usb bağlantısı üzerinden bağlanacaktır. Arduino bağlandığı zaman TinkerBoard geliştirme kartında'/dev' dizininde bağlantı portu gözükecektir (bu projede '/dev/ttyAMC0' portu referans alınmıştır).
 
 #### Python Kodu
 
