@@ -4,6 +4,7 @@ Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum al
 #### Gerekli Donanım Bileşenleri
 ------------
 - 1 adet Asus TinkerBoard geliştirme kartı
+- 1 adet Arduino Uno R3 geliştirme kartı 
 - 2 adet Sharp GP2Y0A41SK0F kızılötesi analog mesafe algılayıcı
 - 2 adet MZ80 kızılötesi dijital mesafe algılayıcı
 - 2 adet HCSR-04 ses ötesi algılayıcı
@@ -18,7 +19,8 @@ Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum al
 #### Gerekli Yazılım Bileşenleri
 ------------
 - Python 3
-- Arduino Uno R3
+- Arduino IDE
+- Terminal
 
 #### Şematik Çizim
 ------------
