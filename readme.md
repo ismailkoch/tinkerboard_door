@@ -29,12 +29,22 @@ Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum al
 
 [Fritzing]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/Fritzing.png
 
+>TinkerBoard geliştirme kartına bağlı turuncu kablolar MZ80 kızılötesi dijital algılayıcılara bağlıdır.
 ### Yapım Aşamaları
 ------------
-Kapı sistemi hazırlanması için önce kapının kendisi iki strafor köpüğün iki yaprak menteşe aracılığıyla strafor yapıştıcı kullanılarak yapıldı, ardından Arduino geliştirme kartına kızılötesi analog algılayıcılar şemada gösterilen şekilde bağlandı, arduino seri port (usb) üzerinde TinkerBoard geliştime kartına bağlandı. TinkerBoard geliştirme kartına MZ80 kızılötesi algılayıcılar şemada gösterilen şekilde bağlandı. Algılayıcıların algıladığı mesafe bilgisini gösteren ledler (hazırlana şemada ledlere direnç bağlı değildir) uçlarına direnç eklenerek şemada gösterilen şekilde TinkerBoard geliştirme kartına bağlandı.
+- Kapı sistemi hazırlanması için önce kapının kendisi iki strafor köpüğün iki yaprak menteşe aracılığıyla strafor yapıştıcı kullanılarak yapıldı. Ardından bir köpük daha yapıştırılarak algılayıcılar için sabitleme kısmı hazırlanmış oldu.
+- Kapı sistemi üzerine algılayıcılar yerleştirildi. Algılayıcılara jumper kablo bağlandı.
+- Arduino geliştirme kartına Sharp GP2Y0A41SK0F kızılötesi analog algılayıcılar şemada gösterilen şekilde bağlandı
+- Arduino geliştirme kartına HCSR-04 ses ötesi algılayıclar şemada gösterilen şekilde bağlandı.
+- TinkerBoard geliştirme kartına MZ80 kızılötesi dijital algılayıcılar şemada gösterilen şekilde bağlandı.
+- Algılayıcıların algıladığı mesafe bilgisini gösteren ledler (hazırlana şemada ledlere direnç bağlı değildir) uçlarına direnç eklenerek şemada gösterilen şekilde TinkerBoard geliştirme kartına bağlandı.
+- Arduino geliştirme kartı seri port (usb) üzerinde TinkerBoard geliştime kartına bağlandı.
 
-#### Köpüklerin Yapıştırılması:
-Köpükler belli ölçüde kesildi ve menteşe ile birleştirildi. Ardından bir köpük daha yapıştırılarak algılayıcılar için sabitleme kısmı hazırlanmış oldu.
+#### TinkerBoard Geliştirme Kartının GPIO Pinleri
+
+![alt text][tinkerboardgpio]
+
+[tinkerboardgpio]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/tinkerboard%20gpio.png
 
 #### Arduino ile TinkerBoard Geliştirme Kartının Bağlanması:
 Asus tinkerboard üzerinden python kodu yazıldı, arduino üzerinden de arduino kodu yazıldı ve arduino üzerinde analog sensörlerin bağlantısı yapıldı. Tinkerboard üzerinde analog giriş çıkış portu yok bu yüzden arduino kullanılıyor. Arduino seri port üzerinde tinkerboard a bağlandı ve bağlantının sağlanması için serial kütüphane python üzerinde eklendi ve seri haberleşme ile analog sensörlerin bilgisi alındı.
@@ -47,13 +57,7 @@ Arduino ile TinkerBoard geliştirme kartı usb bağlantısı üzerinden bağlana
 [ssh]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/ssh.png
 `ssh name@IP` komutu terminal üzerinden yazılarak TinkerBoard geliştirme kartına bağlantı sağlanır. TinkerBoard geliştirme kartının kullanıcı adı `name(linaro)` ve  ise IP adresi ise `IP(192.168.137.170)` olur.
 
-#### TinkerBoard Geliştirme Kartının GPIO Pinleri
-
-![alt text][tinkerboardgpio]
-
-[tinkerboardgpio]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/tinkerboard%20gpio.png
-
-#### Arduino ile TinkerBoard Geliştirme Kartının Bağlantısı
+#### Arduino ile TinkerBoard Geliştirme Kartının Birbirine Bağlanması
 
 Arduino ile TinkerBoard geliştirme kartı usb bağlantısı üzerinden bağlanacaktır. Arduino bağlandığı zaman TinkerBoard geliştirme kartında `/dev` dizininde bağlantı portu gözükecektir (bu projede `/dev/ttyAMC0` dizini referans alınmıştır).
 
