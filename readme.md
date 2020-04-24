@@ -50,7 +50,7 @@ Asus tinkerboard üzerinden python kodu yazıldı,arduino üzerinden de arduino 
 
 #### Arduino ile TinkerBoard Geliştirme Kartının Bağlantısı
 
-Arduino ile TinkerBoard geliştirme kartı usb bağlantısı üzerinden bağlanacaktır. Arduino bağlandığı zaman TinkerBoard geliştirme kartında `/dev` dizininde bağlantı portu gözükecektir (bu projede `/dev/ttyAMC0` portu referans alınmıştır).
+Arduino ile TinkerBoard geliştirme kartı usb bağlantısı üzerinden bağlanacaktır. Arduino bağlandığı zaman TinkerBoard geliştirme kartında `/dev` dizininde bağlantı portu gözükecektir (bu projede `/dev/ttyAMC0` dizini referans alınmıştır).
 
 #### TinkerBoard Geliştirme Kartının Python Kodu
 
