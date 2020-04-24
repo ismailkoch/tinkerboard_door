@@ -61,7 +61,7 @@ Asus tinkerboard üzerinden python kodu yazıldı,arduino üzerinden de arduino 
 [2]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/2.jpg
 
 ![alt text][3]
-
+>Ses ötesi algılayıcıları (Kapının ön kısmı)
 [3]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/3.jpg
 
 
