@@ -211,7 +211,8 @@ uzaklik = (sure/2) / 29.1; /* uzaklık değişkeni elde ediliyor */
 >Ses ötesi algılayıcıları (Kapının ön kısmı)
 
 
-
+#### Sonuç
+Uzun jumper kablo kullanımı sonucu algılayıcılardan veri düzgün alınamadı. Sorunun çözülmesi için gerilim yükseltiminin gerekli olduğu anlaşıldı.
 
 
 
