@@ -40,7 +40,7 @@ Asus tinkerboard üzerinden python kodu yazıldı,arduino üzerinden de arduino 
 ![alt text][ssh]
 
 [ssh]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/ssh.png
-'ssh name@IP' komutu terminal üzerinden yazılarak TinkerBoard kartına bağlantı sağlanır. 'name' kullanıcı adı ve 'IP' IP adresidir.
+`ssh name@IP` komutu terminal üzerinden yazılarak TinkerBoard kartına bağlantı sağlanır. `name` TinkerBoard geliştirme kartının kullanıcı adı ve `IP` ise IP adresidir.
 
 #### TinkerBoard GPIO Pinleri
 
@@ -50,7 +50,7 @@ Asus tinkerboard üzerinden python kodu yazıldı,arduino üzerinden de arduino 
 
 #### Arduino ile TinkerBoard Geliştirme Kartının Bağlantısı
 
-Arduino ile TinkerBoard geliştirme kartı usb bağlantısı üzerinden bağlanacaktır. Arduino bağlandığı zaman TinkerBoard geliştirme kartında'/dev' dizininde bağlantı portu gözükecektir (bu projede '/dev/ttyAMC0' portu referans alınmıştır).
+Arduino ile TinkerBoard geliştirme kartı usb bağlantısı üzerinden bağlanacaktır. Arduino bağlandığı zaman TinkerBoard geliştirme kartında `/dev` dizininde bağlantı portu gözükecektir (bu projede `/dev/ttyAMC0` portu referans alınmıştır).
 
 #### Python Kodu
 
