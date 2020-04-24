@@ -55,10 +55,12 @@ Asus tinkerboard üzerinden python kodu yazıldı,arduino üzerinden de arduino 
 ![alt text][1]
 
 [1]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/1.jpg
+>Kızılötesi algılayıcılar (Kapının alt kısmı)
 
 ![alt text][2]
 
 [2]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/2.jpg
+>Arduino ve BreadBoard bağlantısı (Kapının arka kısmı)
 
 ![alt text][3]
 
