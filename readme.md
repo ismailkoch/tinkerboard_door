@@ -31,11 +31,12 @@ Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum al
 ------------
 Kapı sistemi hazırlanması için önce kapının kendisi iki strafor köpüğün iki yaprak menteşe aracılığıyla strafor yapıştıcı kullanılarak yapıldı, ardından Arduino geliştirme kartına kızılötesi analog algılayıcılar şemada gösterilen şekilde bağlandı, arduino seri port (usb) üzerinde TinkerBoard geliştime kartına bağlandı. TinkerBoard geliştirme kartına MZ80 kızılötesi algılayıcılar şemada gösterilen şekilde bağlandı. Algılayıcıların algıladığı mesafe bilgisini gösteren ledler (hazırlana şemada ledlere direnç bağlı değildir) uçlarına direnç eklenerek şemada gösterilen şekilde TinkerBoard geliştirme kartına bağlandı.
 
-##### Adım 1:
+##### Köpüklerin Yapıştırılması:
 Köpükler belli ölçüde kesildi ve menteşe ile birleştirildi. Ardından bir köpük daha yapıştırılarak algılayıcılar için sabitleme kısmı hazırlanmış oldu.
 
-##### Adım 2:
-Asus tinkerboard üzerinden python kodu yazıldı,arduino üzerinden de arduino kodu yazıldı ve arduino üzerinde analog sensörlerin bağlantısı yapıldı. Tinkerboard üzerinde analog giriş çıkış portu yok bu yüzden arduino kullanılıyor. Arduino seri port üzerinde tinkerboard a bağlandı ve bağlantının sağlanması için serial kütüphane python üzerinde eklendi ve seri haberleşme ile analog sensörlerin bilgisi alındı. Ayrıca Tinkerboard a SSH üzerinden bağlantı sağlandı.
+##### Arduino ile TinkerBoard Geliştirme Kartının Bağlantısı:
+Asus tinkerboard üzerinden python kodu yazıldı, arduino üzerinden de arduino kodu yazıldı ve arduino üzerinde analog sensörlerin bağlantısı yapıldı. Tinkerboard üzerinde analog giriş çıkış portu yok bu yüzden arduino kullanılıyor. Arduino seri port üzerinde tinkerboard a bağlandı ve bağlantının sağlanması için serial kütüphane python üzerinde eklendi ve seri haberleşme ile analog sensörlerin bilgisi alındı.
+Arduino ile TinkerBoard geliştirme kartı usb bağlantısı üzerinden bağlanacaktır. Arduino bağlandığı zaman TinkerBoard geliştirme kartında `/dev` dizininde bağlantı portu gözükecektir (bu projede `/dev/ttyAMC0` dizini referans alınmıştır).
 
 #### SSH ile TinkerBoard Geliştirme Kartının Bilgisayara Bağlanması
 
