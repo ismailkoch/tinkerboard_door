@@ -39,3 +39,15 @@ Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum al
 
 [3]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/3.jpg
 
+![alt text][execute]
+
+[execute]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/execute.png
+
+![alt text][ssh]
+
+[ssh]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/ssh.png
+
+![alt text][tinkerboardgpio]
+
+[tinkerboardgpio]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/tinkerboard%20gpio.png
+
