@@ -36,6 +36,21 @@ Köpükler belli ölçüde kesildi ve menteşe ile birleştirildi. Ardından bir
 ##### Adım 2:
 Asus tinkerboard üzerinden python kodu yazıldı,arduino üzerinden de arduino kodu yazıldı ve arduino üzerinde analog sensörlerin bağlantısı yapıldı. Tinkerboard üzerinde analog giriş çıkış portu yok bu yüzden arduino kullanılıyor. Arduino seri port üzerinde tinkerboard a bağlandı ve bağlantının sağlanması için serial kütüphane python üzerinde eklendi ve seri haberleşme ile analog sensörlerin bilgisi alındı. Ayrıca Tinkerboard a SSH üzerinden bağlantı sağlandı.
 
+#### SSH ile TinkerBoard Geliştirme Kartının Bilgisayara Bağlanması
+
+![alt text][ssh]
+
+[ssh]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/ssh.png
+
+#### TinkerBoard GPIO Pinleri
+
+![alt text][tinkerboardgpio]
+
+[tinkerboardgpio]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/tinkerboard%20gpio.png
+
+#### Nasıl Kullanılır
+
+
 ![alt text][1]
 
 [1]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/1.jpg
@@ -52,11 +67,7 @@ Asus tinkerboard üzerinden python kodu yazıldı,arduino üzerinden de arduino 
 
 [execute]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/execute.png
 
-![alt text][ssh]
 
-[ssh]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/ssh.png
 
-![alt text][tinkerboardgpio]
 
-[tinkerboardgpio]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/tinkerboard%20gpio.png
 
