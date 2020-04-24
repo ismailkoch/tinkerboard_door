@@ -16,10 +16,6 @@ Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum al
 - Python 3
 - Arduino Uno R3
 
-#### Hazırlık Aşaması
-------------
-
-
 #### Şematik Çizim
 ------------
 
