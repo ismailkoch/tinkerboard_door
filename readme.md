@@ -212,7 +212,7 @@ uzaklik = (sure/2) / 29.1; /* uzaklık değişkeni elde ediliyor */
 
 
 #### Sonuç
-Uzun jumper kablo kullanımı sonucu algılayıcılardan veri düzgün alınamadı. Sorunun çözülmesi için gerilim yükseltiminin gerekli olduğu anlaşıldı.
+Uzun jumper kablo kullanımı sonucu algılayıcılardan düzgün şekilde veri akışı gerçekleşmedi. Sorunun çözülmesi için algılayıcıların veri kablolarına gerilim yükseltimi yapılmasının gerekli olduğu anlaşıldı.
 
 
 
