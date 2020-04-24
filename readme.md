@@ -1,6 +1,7 @@
 ### Giriş
 ------------
 Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum algılanması ile algılayıcılardan edinilen veri ile birlikte araç kapasının engele çarpma durumunun engellenmesi için kapının durması gerektiği zamanın ve mesafenin kararı geliştirme kartı tarafından verilecektir.
+
 #### Gerekli Donanım Bileşenleri
 ------------
 - 1 adet Asus TinkerBoard geliştirme kartı
@@ -27,6 +28,7 @@ Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum al
 ![alt text][Fritzing]
 
 [Fritzing]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/Fritzing.png
+
 ### Yapım Aşamaları
 ------------
 Kapı sistemi hazırlanması için önce kapının kendisi iki strafor köpüğün iki yaprak menteşe aracılığıyla strafor yapıştıcı kullanılarak yapıldı, ardından Arduino geliştirme kartına kızılötesi analog algılayıcılar şemada gösterilen şekilde bağlandı, arduino seri port (usb) üzerinde TinkerBoard geliştime kartına bağlandı. TinkerBoard geliştirme kartına MZ80 kızılötesi algılayıcılar şemada gösterilen şekilde bağlandı. Algılayıcıların algıladığı mesafe bilgisini gösteren ledler (hazırlana şemada ledlere direnç bağlı değildir) uçlarına direnç eklenerek şemada gösterilen şekilde TinkerBoard geliştirme kartına bağlandı.
@@ -195,7 +197,7 @@ uzaklik = (sure/2) / 29.1; /* uzaklık değişkeni elde ediliyor */
 ![alt text][execute]
 
 [execute]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/execute.png
-SSH ile TinkerBoard geliştirme kartına bağlandıktan sonra python programı `sudo python project_sensor.py` komutu ile çalıştırılır. Program durdurulmak istendiğinde **Ctrl+C** yapılır ve `Keyboard Interrupt` meydana gelir. 
+SSH ile TinkerBoard geliştirme kartına bağlandıktan ve python programının olduğu dizine ulaşıldıktan sonra python programı `sudo python project_sensor.py` komutu ile çalıştırılır. Program durdurulmak istendiğinde **Ctrl+C** yapılır ve `Keyboard Interrupt` meydana gelir. 
 
 #### Projeye Ait Görseller
 
@@ -215,8 +217,9 @@ SSH ile TinkerBoard geliştirme kartına bağlandıktan sonra python programı `
 >Ses ötesi algılayıcıları (Kapının ön kısmı)
 
 
-#### Sonuç
-Uzun jumper kablo kullanımı sonucu algılayıcılardan düzgün şekilde veri akışı gerçekleşmedi. Sorunun çözülmesi için algılayıcıların veri kablolarına gerilim yükseltimi yapılmasının gerekli olduğu anlaşıldı.
+### Sonuç
+------------
+Uzun jumper kablo kullanımı sonucu algılayıcılardan düzgün şekilde veri akışı gerçekleşemedi. Sorunun çözülmesi için algılayıcıların veri kablolarına gerilim yükseltimi yapılmasının gerekli olduğu anlaşıldı.
 
 
 
