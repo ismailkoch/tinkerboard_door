@@ -22,3 +22,4 @@ Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum al
 
 #### Şematik Çizim
 ------------
+[![](a)](https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/execute.png)
