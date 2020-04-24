@@ -10,7 +10,15 @@ Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum al
 - 2 adet 30x30 cm strafor köpük
 - 2 adet  3x3 cm yaprak menteşe
 - 1 adet strafor köpük yapıştırıcı
+
 #### Gerekli Yazılım Bileşenleri
 ------------
 - Python 3
 - Arduino Uno R3
+
+#### Hazırlık Aşaması
+------------
+
+
+#### Şematik Çizim
+------------
