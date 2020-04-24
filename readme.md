@@ -22,6 +22,7 @@ Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum al
 - Python 3
 - Arduino IDE
 - Terminal
+- SSH
 
 ### Şematik Çizim
 ------------
