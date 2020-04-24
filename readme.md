@@ -1,6 +1,6 @@
 ### Giriş
 ------------
-Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum algılanması ile algılayıcılardan edinilen veri ile birlikte araç kapasının engele çarpma durumunun engellenmesi için kapının durması gerektiği zamanın ve mesafenin kararı geliştirme kartı tarafından verilecektir.
+Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum algılanması ile algılayıcılardan edinilen veri ile birlikte araç kapasının engele çarpma durumunun engellenmesi için kapının durması gerektiği zamanın ve mesafenin kararı TinkerBoard geliştirme kartı tarafından verilecektir.
 
 #### Gerekli Donanım Bileşenleri
 
@@ -10,7 +10,7 @@ Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum al
 - 2 adet MZ80 kızılötesi dijital mesafe algılayıcı
 - 2 adet HCSR-04 ses ötesi algılayıcı
 - 2 adet 30x30 cm strafor köpük
-- 2 adet  3x3 cm yaprak menteşe
+- 2 adet 3x3 cm yaprak menteşe
 - 1 adet strafor köpük yapıştırıcı
 - 15 adet kumper kablo
 - 1 adet Breadboard
@@ -34,7 +34,7 @@ Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum al
 ------------
 - Kapı sistemi hazırlanması için önce kapının kendisi iki strafor köpüğün iki yaprak menteşe aracılığıyla strafor yapıştıcı kullanılarak yapıldı. Ardından bir köpük daha yapıştırılarak algılayıcılar için sabitleme kısmı hazırlanmış oldu.
 - Kapı sistemi üzerine algılayıcılar yerleştirildi. Algılayıcılara jumper kablo bağlandı.
-- Arduino geliştirme kartına Sharp GP2Y0A41SK0F kızılötesi analog algılayıcılar şemada gösterilen şekilde bağlandı
+- Arduino geliştirme kartına Sharp GP2Y0A41SK0F kızılötesi analog algılayıcılar şemada gösterilen şekilde bağlandı.
 - Arduino geliştirme kartına HCSR-04 ses ötesi algılayıclar şemada gösterilen şekilde bağlandı.
 - TinkerBoard geliştirme kartına MZ80 kızılötesi dijital algılayıcılar şemada gösterilen şekilde bağlandı.
 - Algılayıcıların algıladığı mesafe bilgisini gösteren ledler (hazırlana şemada ledlere direnç bağlı değildir) uçlarına direnç eklenerek şemada gösterilen şekilde TinkerBoard geliştirme kartına bağlandı.
@@ -196,7 +196,7 @@ uzaklik = (sure/2) / 29.1; /* uzaklık değişkeni elde ediliyor */
 }
 ```
 
-#### Nasıl Kullanılır
+#### Programın Kullanımı
 
 ![alt text][execute]
 
