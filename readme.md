@@ -27,7 +27,7 @@ Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum al
 [Fritzing]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/Fritzing.png
 #### Yapım Aşamaları
 ------------
-Kapı sistemi hazırlanması için önce kapının kendisi iki strafor köpüğün iki yaprak menteşe aracılığıyla strafor yapıştıcı kullanılarak yapıldı, ardından Arduino geliştirme kartına  kızılötesi analog algılayıcılar bağlandı, arduino seri port (usb) üzerinde TinkerBoard geliştime kartına bağlandı. TinkerBoard geliştirme kartına MZ80 kızılötesi algılayıcılar bağlandı. Algılayıcıların algıladığı mesafe bilgisini gösteren ledler TinkerBoard geliştirme kartına bağlandı (hazırlanan şemada ledlere direnç bağlı değildir).
+Kapı sistemi hazırlanması için önce kapının kendisi iki strafor köpüğün iki yaprak menteşe aracılığıyla strafor yapıştıcı kullanılarak yapıldı, ardından Arduino geliştirme kartına kızılötesi analog algılayıcılar şemada gösterilen şekilde bağlandı, arduino seri port (usb) üzerinde TinkerBoard geliştime kartına bağlandı. TinkerBoard geliştirme kartına MZ80 kızılötesi algılayıcılar şemada gösterilen şekilde bağlandı. Algılayıcıların algıladığı mesafe bilgisini gösteren ledler (hazırlana şemada ledlere direnç bağlı değildir) uçlarına direnç eklenerek şemada gösterilen şekilde TinkerBoard geliştirme kartına bağlandı.
 
 ##### Adım 1:
 Köpükler belli ölçüde kesildi ve menteşe ile birleştirildi. Ardından bir köpük daha yapıştırılarak algılayıcılar için sabitleme kısmı hazırlanmış oldu.
