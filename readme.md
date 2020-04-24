@@ -27,3 +27,15 @@ Arabanın kapısı önüne engel geldiği zaman algılayıcılar ile bu durum al
 
 [Fritzing]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/Fritzing.png
 
+![alt text][1]
+
+[1]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/1.jpg
+
+![alt text][2]
+
+[2]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/2.jpg
+
+![alt text][3]
+
+[3]: https://github.com/ismailkoch492/tinkerboard_door/blob/master/Proje%20Görselleri/3.jpg
+
